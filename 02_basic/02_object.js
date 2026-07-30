@@ -47,7 +47,7 @@ obj3 = {...obj1 , ...obj2}
 
 // console.log(obj3)
 
-console.log(facebookUser)
+// console.log(facebookUser)
 
 // console.log(Object.keys(facebookUser))
 
@@ -57,4 +57,22 @@ console.log(facebookUser)
 // console.log(Object.entries(facebookUser))
 
 
-console.log(facebookUser.hasOwnProperty('id'))
+// console.log(facebookUser.hasOwnProperty('id'))
+
+
+
+//---------------------------Object de-structure ------------------------
+
+const course = {
+
+    courseName : "CS50",
+    price : "999",
+    courseInstructor : "Devid Malan"
+
+}
+
+const {courseInstructor : instructor} = course
+
+// console.log(courseInstructor)
+
+console.log(instructor)
