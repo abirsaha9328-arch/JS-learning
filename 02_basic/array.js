@@ -60,12 +60,13 @@ const jk = [
 // narutoHeroes.push(jk)
 // console.log(narutoHeroes[6])
 
-// most switeable opetion
+// most switeable opetion 1
 
 // const array = narutoHeroes.concat(jk)
 // console.log(array)
 // console.log(narutoHeroes)
 
+// most switeable opetion 2 => this is use producation garde use case
 
 // const allHerro = [...narutoHeroes, ...jk]
 
