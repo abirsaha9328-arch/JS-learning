@@ -1,19 +1,19 @@
 // For of loop
 
-const narutoCharacters = [
-    "Naruto Uzumaki",
-    "Sasuke Uchiha",
-    "Sakura Haruno",
-    "Kakashi Hatake",
-    "Itachi Uchiha",
-    "Hinata Hyuga"
-];
+// const narutoCharacters = [
+//     "Naruto Uzumaki",
+//     "Sasuke Uchiha",
+//     "Sakura Haruno",
+//     "Kakashi Hatake",
+//     "Itachi Uchiha",
+//     "Hinata Hyuga"
+// ];
 
 
-for(const num of narutoCharacters)
-{
-    // console.log(num)
-}
+// for(const num of narutoCharacters)
+// {
+//     console.log(num)
+// }
 
 const favoCharacter = "Kakashi Hatake"
 
@@ -105,20 +105,69 @@ for(const value in map1)
 
 //------------------------For each loop--------------------
 
-const narutoHero = [
-    "Naruto Uzumaki",
-    "Sasuke Uchiha",
-    "Sakura Haruno",
-    "Kakashi Hatake",
-    "Itachi Uchiha",
-    "Hinata Hyuga",
-    "Neji Hyuga"
-];
+// const narutoHero = [
+//     "Naruto Uzumaki",
+//     "Sasuke Uchiha",
+//     "Sakura Haruno",
+//     "Kakashi Hatake",
+//     "Itachi Uchiha",
+//     "Hinata Hyuga",
+//     "Neji Hyuga"
+// ];
 
 // narutoHero.forEach( function (value) {
 //     console.log(value)
 // })
 
-narutoHero.forEach((value)=>{
-    console.log(value)
+// narutoHero.forEach((value)=>{
+//     console.log(value)
+// })
+
+// function as a parameter
+
+// const printme = (value) =>{
+//     console.log(value)
+// }
+
+// narutoHero.forEach(printme)
+
+// narutoHero.forEach( function(item , index , array) {
+//         console.log(item , index , array)
+// } )
+
+
+
+//----------------------------Another important implementaion------------------------------
+
+const narutoCharacters = [
+    {
+        name: "Naruto Uzumaki",
+        age: 17,
+        village: "Leaf Village",
+        clan: "Uzumaki"
+    },
+    {
+        name: "Sasuke Uchiha",
+        age: 17,
+        village: "Leaf Village",
+        clan: "Uchiha"
+    },
+    {
+        name: "Sakura Haruno",
+        age: 17,
+        village: "Leaf Village",
+        clan: "Haruno"
+    },
+    {
+        name: "Kakashi Hatake",
+        age: 31,
+        village: "Leaf Village",
+        clan: "Hatake"
+    }
+]
+
+narutoCharacters.forEach( (item)=>{
+
+    console.log(item.name , item.age , item.clan)
+
 })
