@@ -1,0 +1,16 @@
+JavaScript Iteration Methods - Quick Reference
+
+Method: forEach() Use when: You want to perform an action on every
+element. Returns: undefined
+
+Method: map() Use when: You want to create a new array by changing every
+element. Returns: New array
+
+Method: filter() Use when: You want only the elements that match a
+condition. Returns: New array
+
+Method: for…of Use when: You want to iterate over the values of an
+iterable (arrays, strings, maps, sets). Returns: Nothing
+
+Method: for…in Use when: You want to iterate over object keys (or array
+indexes, though this is not recommended for arrays). Returns: Nothing
