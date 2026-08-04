@@ -84,11 +84,13 @@ h1{
 }
 
 .guesses{
-    display:inline-block;
-    width:15px;
-    height:35px;
-    background:#9a9a9a;
-    vertical-align:middle;
+     display: inline-block;
+    width: 15px;
+    height: 35px;
+    /* background: #9a9a9a; */
+    vertical-align: middle;
+    font-size: 22px;
+    margin-top: 7px;
 }
 
 .lastResult{
